@@ -1,0 +1,13 @@
+.quality {
+  padding: 50px 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  /* justify-content: space-between; */
+  column-gap: 7%;
+}
+
+.quality img {
+  max-width: 130px;
+  max-height: 115px;
+}

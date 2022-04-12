@@ -1,0 +1,51 @@
+.List {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.meniItem {
+  margin-right: 45px;
+  position: relative;
+}
+.menuCircle {
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -8px;
+  left: 22px;
+  display: none;
+}
+
+.meniItem a {
+  font-family: jostMedium;
+  font-size: 17px;
+  line-height: 20px;
+  color: #d6f0c9;
+  cursor: pointer;
+  position: relative;
+}
+.meniItem:hover {
+  transform: scale(1.1);
+}
+
+.meniItem a:hover {
+  color: #fff;
+}
+
+.meniItem a:hover .menuCircle {
+  display: block;
+}
+
+.galleryLink .menuCircle {
+  left: 40px;
+}
+
+.active {
+  color: #fff;
+}
+.active .menuCircle {
+  display: block;
+}

@@ -1,0 +1,10 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  background-color: #699551;
+  padding: 23px 8% 25px 8%;
+  width: 100%;
+  /* position: fixed; */
+  z-index: 100;
+}

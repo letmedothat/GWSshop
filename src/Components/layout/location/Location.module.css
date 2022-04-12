@@ -1,0 +1,105 @@
+.location {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
+}
+
+.whoWeAre,
+.storeLocation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.storeLocation {
+  padding: 77px 0 72px 0;
+  background: url("../../../assets/locationBackground.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.storeLocation h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-transform: none;
+  color: #ffffff;
+  font-family: jostRegular;
+  margin-bottom: 6px;
+}
+
+.storeLocation .store {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.storeLocation .store img {
+  margin-right: 11px;
+  width: 10px;
+}
+
+.storeLocation .store p {
+  font-family: Jost;
+  font-size: 1.3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.storeLocation a {
+  font-family: Jost;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.storeLocation a:hover {
+  color: rgb(203, 203, 203);
+}
+.storeLink {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.storeLink svg {
+  margin-left: 16px;
+  width: 18px;
+}
+
+.whoWeAre {
+  align-items: flex-start;
+  padding: 77px 100px 72px 75px;
+  border-color: #e6e6e6;
+  background-color: #f3f3f3;
+}
+
+.whoWeAre h3 {
+  font-family: jostboldItalic;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #2f2f2f;
+  margin-bottom: 16px;
+}
+
+.whoWeAre p {
+  font-family: jostRegular;
+  font-size: 1.15rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.61;
+  letter-spacing: normal;
+  color: #686868;
+}

@@ -1,0 +1,74 @@
+.store {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.cart {
+  position: relative;
+  margin-right: 45px;
+}
+
+.cart p {
+  position: absolute;
+  background-color: #7da966;
+  color: #fff;
+  font-size: 9px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -7px;
+  top: -11px;
+  font-family: jostBold;
+}
+
+.cart svg {
+  width: 20px;
+  fill: #fff;
+  cursor: pointer;
+}
+
+.cart svg:hover {
+  fill: rgb(195, 221, 135);
+  cursor: pointer;
+}
+
+.store button {
+  font-family: jostRegular;
+  width: 125px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #466a32;
+  outline: none;
+  border-color: #466a32;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.store button:hover {
+  background-color: #31521f;
+  border-color: #466a32;
+  transform: scale(1.1);
+}
+
+.store .loginBtn {
+  margin-left: 8px;
+  background-color: #699551;
+}
+
+.store .loginBtn:hover {
+  margin-left: 8px;
+  background-color: #699551;
+  font-family: jostBold;
+  transform: scale(1.1);
+}

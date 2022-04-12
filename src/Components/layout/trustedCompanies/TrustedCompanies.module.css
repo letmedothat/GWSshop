@@ -1,0 +1,67 @@
+.trustedCompanies {
+  padding: 70px 10%;
+  background-color: #37462f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: url("../../../assets/bg-header.jpg") 55% 50%;
+  background-size: auto;
+  position: relative;
+}
+.trustedCompanies::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+.trustItem {
+  display: flex;
+}
+
+.trustItem img {
+  /* width: 15%; */
+  margin-right: 26px;
+}
+
+.itemTitle h4 {
+  font-family: jostBold;
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.itemTitle p {
+  font-family: jostRegular;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #d1f8bc;
+}
+
+.trustLogo1 {
+  width: 56px;
+  height: 30px;
+}
+
+.trustLogo2 {
+  width: 47px;
+  height: 47px;
+}
+
+.trustLogo3 {
+  width: 52px;
+  height: 52px;
+}

@@ -1,0 +1,72 @@
+.products {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 85px;
+  background: url("../../../assets//productBackground.png") 50% 12%;
+}
+
+.title h2 {
+  font-family: jostboldItalic;
+  font-size: 3rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #6eaf4b;
+  margin-bottom: 12px;
+}
+
+.title p {
+  font-family: jostRegular;
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3b3b3b;
+  width: 70%;
+}
+
+.viewAllBtn {
+  width: 211px;
+  height: 50px;
+  padding: 10.9px 27px 18.1px 30px;
+  border-radius: 4px;
+  background-color: #719b5c;
+  font-family: jostBold;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewAllBtn svg {
+  width: 20px;
+  margin-left: 15px;
+}
+
+.viewAllBtn:hover {
+  background-color: #528539;
+  transform: scale(1.05);
+}

@@ -1,0 +1,56 @@
+.login {
+  width: 50%;
+  height: 50%;
+  background-color: #6eaf4b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: url("../../../assets/bg-header.jpg") no-repeat center;
+}
+
+.inputs {
+  width: 50%;
+}
+
+.login img {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+}
+
+.login img:hover {
+  transform: scale(1.1) rotate(180deg);
+  transition: all 1s linear;
+}
+
+.loginBtn button {
+  font-family: jostRegular;
+  width: 155px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #466a32;
+  outline: none;
+  border-color: #466a32;
+  color: #ffffff;
+  font-size: 17px;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+}
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBtn button:hover {
+  background-color: #699551;
+  font-family: jostBold;
+  transform: scale(1.1);
+}
