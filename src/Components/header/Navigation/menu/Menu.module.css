@@ -18,6 +18,14 @@
   left: 22px;
   display: none;
 }
+.active .menuCircle {
+  display: block;
+}
+.active {
+  color: #fff !important;
+  font-family: jostBold !important;
+  transform: scale(1.1);
+}
 
 .meniItem a {
   font-family: jostMedium;

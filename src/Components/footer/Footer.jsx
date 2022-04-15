@@ -25,7 +25,10 @@ const Footer = () => {
       <section className={style.contact}>
         <h2>Contact Us:</h2>
         <p>
-          Telegram : <a>Click Me!</a>
+          Telegram :{" "}
+          <a href="https://t.me/gwsshop" target="blank">
+            Click Me!
+          </a>
         </p>
       </section>
     </div>

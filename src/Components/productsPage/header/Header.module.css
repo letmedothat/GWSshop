@@ -1,0 +1,24 @@
+.header {
+  height: 340px;
+  background: url("../../../assets/productHeader.jpg") no-repeat 0% 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header h2 {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 700;
+  font-family: jostBold;
+  margin-bottom: 20px;
+}
+
+.header P {
+  color: #dcf0d2;
+  font-size: 1.5rem;
+  font-family: jostRegular;
+  font-weight: 500;
+}

@@ -95,10 +95,13 @@
   font-size: 15px;
   font-family: jostBold;
   cursor: pointer;
+  transition: 0.2s linear;
+  z-index: 30;
 }
 .shopBtn:hover {
   background-color: #3c6e22;
   border-color: #719b5c;
+  transform: scale(1.1);
 }
 
 .shopBtn svg {

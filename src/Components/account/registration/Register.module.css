@@ -1,4 +1,4 @@
-.login {
+.register {
   width: 55%;
   height: 55%;
   background-color: #6eaf4b;
@@ -14,14 +14,14 @@
   width: 50%;
 }
 
-.login img {
+.register img {
   position: absolute;
   right: 30px;
   top: 30px;
   cursor: pointer;
 }
 
-.login img:hover {
+.register img:hover {
   transform: scale(1.1) rotate(180deg);
   transition: all 1s linear;
 }
@@ -50,8 +50,9 @@
   column-gap: 34px;
 }
 .loginBtn .registerBtn {
-  background-color: #fff;
-  color: #466a32;
+  background-color: #699551;
+  font-family: jostBold;
+  transform: scale(1.1);
 }
 .loginBtn .registerBtn:hover {
   background-color: #699551;
@@ -67,7 +68,6 @@
 }
 
 .loginBtn .loginBtnn {
-  background-color: #699551;
-  font-family: jostBold;
-  transform: scale(1.1);
+  background-color: #fff;
+  color: #466a32;
 }

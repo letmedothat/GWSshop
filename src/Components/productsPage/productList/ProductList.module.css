@@ -1,0 +1,39 @@
+.productList {
+  padding: 90px 0 70px 0;
+}
+
+.loadMore {
+  width: 211px;
+  height: 50px;
+  padding: 10.9px 27px 18.1px 30px;
+  border-radius: 4px;
+  background-color: #7da966;
+  font-family: jostRegular;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: 0.2s linear;
+}
+
+.loadMore:hover {
+  background-color: #528539;
+  transform: scale(1.05);
+}
+
+.btn {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
